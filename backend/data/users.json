@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u_4ki6li6w",
+    "name": "Admin",
+    "email": "admin@mycollab.local",
+    "passwordHash": "$2b$10$rse6L/1KbHO01CKaVB/q5uccQoXiA9/SBQx2vvZKB2Wj264Br4gla",
+    "role": "admin",
+    "createdAt": "2025-09-26T15:01:11.401Z"
+  },
+  {
+    "id": "u_xbo4uaao",
+    "name": "saad bin wasi",
+    "email": "sbinwasii@gmail.com",
+    "passwordHash": "$2b$10$QI6vo0bPW0XCx.F3H7GlCOFS09d5KOmCqy09V/RHWAyuX0HBYJ21m",
+    "role": "user",
+    "createdAt": "2025-09-26T15:10:30.287Z"
+  },
+  {
+    "id": "u_kol8nvan",
+    "name": "farida wasi",
+    "email": "faridawasikhan@gmail.com",
+    "passwordHash": "$2b$10$8wPD0Qrgjcwz81BLpfOqdu9uZhidzSe49lZSSe.0lHNCL1KHZ9HAG",
+    "role": "user",
+    "createdAt": "2025-09-26T15:39:48.636Z"
+  }
+]
