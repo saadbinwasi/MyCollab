@@ -1,0 +1,38 @@
+[
+  {
+    "id": "id_zdeeuv3y",
+    "title": "Today",
+    "boardId": "id_gha9otrw",
+    "color": "#3b82f6",
+    "order": 1,
+    "createdAt": "2025-09-27T23:39:01.151Z",
+    "updatedAt": "2025-09-27T23:39:01.151Z"
+  },
+  {
+    "id": "id_33m82naw",
+    "title": "This Week",
+    "boardId": "id_gha9otrw",
+    "color": "#8b5cf6",
+    "order": 2,
+    "createdAt": "2025-09-27T23:39:01.151Z",
+    "updatedAt": "2025-09-27T23:39:01.151Z"
+  },
+  {
+    "id": "id_e96pugvs",
+    "title": "Later",
+    "boardId": "id_gha9otrw",
+    "color": "#10b981",
+    "order": 3,
+    "createdAt": "2025-09-27T23:39:01.151Z",
+    "updatedAt": "2025-09-27T23:39:01.151Z"
+  },
+  {
+    "id": "id_zi18nfsb",
+    "title": "Doing",
+    "boardId": "id_gha9otrw",
+    "color": "#ef4444",
+    "order": 4,
+    "createdAt": "2025-09-27T23:39:01.151Z",
+    "updatedAt": "2025-09-27T23:39:01.151Z"
+  }
+]

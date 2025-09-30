@@ -1,35 +1,21 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { useAuth } from '@/context/AuthContext'
 import UserBadge from '@/components/UserBadge'
 import BoardsView from '@/components/BoardsView'
-
-type StoredUser = { name?: string; email?: string; role?: 'user' | 'admin' }
 
 type Tab = 'boards' | 'members' | 'settings' | 'powerups' | 'billing' | 'export'
 
 export default function UserDashboard() {
   const router = useRouter()
-  const [user, setUser] = useState<StoredUser | null>(null)
+  const { user, signOut } = useAuth()
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [tab, setTab] = useState<Tab>('boards')
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const u = window.localStorage.getItem('user')
-      if (u) setUser(JSON.parse(u))
-    }
-  }, [])
-
   function handleLogout() {
-    try {
-      if (typeof window !== 'undefined') {
-        window.localStorage.removeItem('token')
-        window.localStorage.removeItem('user')
-      }
-    } finally {
-      router.push('/')
-    }
+    signOut()
+    router.push('/')
   }
 
   return (
@@ -90,4 +76,4 @@ export default function UserDashboard() {
       </div>
     </div>
   )
-} 
+}
